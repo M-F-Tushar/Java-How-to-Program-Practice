@@ -24,3 +24,30 @@ public class Addition
         input.close(); // close the scanner
     }
 }
+/*
+✅ System.out.print()
+Description: Prints the text to the console without adding a new line at the end.
+
+Use case: When you want to continue output on the same line.
+
+System.out.print("Hello ");
+System.out.print("World");
+// Output: Hello World
+✅ System.out.println()
+Description: Prints the text to the console and adds a new line after the output.
+
+Use case: When you want to print each output on a new line.
+
+System.out.println("Hello");
+System.out.println("World");
+// Output:
+// Hello
+// World
+✅ System.out.printf()
+Description: Prints formatted text to the console, similar to printf in C/C++.
+
+Use case: When you need precise control over formatting (numbers, alignment, decimals, etc.).
+
+System.out.printf("Name: %s, Age: %d", "Alice", 30);
+// Output: Name: Alice, Age: 30
+*/
